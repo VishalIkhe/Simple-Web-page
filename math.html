@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Math Calculator</title>
+
+	<link href = "math.css" rel = "stylesheet" type = "text/css" /> 
+</head>
+<center><body>
+	<header>
+		<center><h1> 4 Functions Math Calculations </h1></center>
+	</header>
+	<ul class="tab">
+  		<li><a href="#" class="tablinks" onclick="openFunction(event, 'Addition')">Addition</a></li>
+  		<li><a href="#" class="tablinks" onclick="openFunction(event, 'Subtraction')">Subtraction</a></li>
+  		<li><a href="#" class="tablinks" onclick="openFunction(event, 'Multiplication')">Multiplication</a></li>
+  		<li><a href="#" class="tablinks" onclick="openFunction(event, 'Division')">Division</a></li>
+	</ul>
+
+	<div id="Addition" class="tabcontent">
+  		<h2>Add Numbers:</h2>
+		<p>
+			<br><br><br>
+			<input id = "addnum-one"> + <input id= "addnum-two">
+		</p>
+		<p id = "add-sum"></p>
+	</div>
+
+	<div id="Subtraction" class="tabcontent">
+  		<h2>Subtract Numbers:</h2>
+		<p>
+			<br><br><br>
+			<input id = "subnum-one"> - <input id= "subnum-two">
+		</p>
+		<p id = "sub-sum"></p>
+	</div>
+
+	<div id="Multiplication" class="tabcontent">
+  		<h2>Multiply Numbers:</h2>
+		<p>
+			<br><br><br>
+			<input id = "multnum-one"> * <input id= "multnum-two">
+		</p>
+		<p id = "mult-sum"></p>
+	</div>
+
+	<div id="Division" class="tabcontent">
+  		<h2>Divide Numbers:</h2>
+		<p>
+			<br><br><br>
+			<input id = "divnum-one"> / <input id= "divnum-two">
+		</p>
+		<p id = "div-sum"></p>
+	</div>
+
+	<script src="math.js"></script>
+
+</body></center>
+</html>
